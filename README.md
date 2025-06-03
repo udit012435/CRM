@@ -1,1 +1,3 @@
-# CRM
+# In this Project we have two Pannels firt one is admin pannel and second one is Employee pannel. In Admin Pannel I provided the functionality to manage Leaves, Departments, Employees.
+# In Employee Pannel I provided the functionality to view your details and apply for leave and see all leaves recods.
+# In Admin Pannel I provided the functionality to View All Employees and Add Employee, View Employee Leaves and have athority to approve, reject, or stay pending it. and Admin can add Departments and See all departments edit it and delete it also. also I use cascading whenever I delete the one  Department then all the Employees are also deleted related to the Deleted Department.
