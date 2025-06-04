@@ -1,5 +1,5 @@
 import React from "react";
-import { SummaryCard } from "./SummaryCard";
+// import { SummaryCard } from "./SummaryCard";
 import { FaBuilding, FaUsers, FaFileAlt, FaHourglassHalf, FaCheckCircle ,FaTimesCircle } from "react-icons/fa";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -60,7 +60,7 @@ export const AdminSummary = () => {
                     <div className="card" style={{ border: '1px solid black' }}>
                         <div className="row">
                             <div className="col-md-4" >
-                                <div className="d-flex justify-content-center align-items-center  text-white h-100" style={{ background: "linear-gradient( to bottom right, rgb(167, 165, 26), rgb(79, 80, 0), rgb(167, 165, 26))" }}>
+                                <div className="d-flex justify-content-center align-items-center  text-white h-100" style={{ background: "linear-gradient( to bottom right, #EF88AD, #670D2F, #EF88AD)" }}>
                                     <FaBuilding style={{ fontSize: "50px" }} />
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ export const AdminSummary = () => {
                     <div className="card" style={{ border: '1px solid black' }}>
                         <div className="row">
                             <div className="col-md-4" >
-                                <div className="d-flex justify-content-center align-items-center  text-white h-100" style={{ background: "linear-gradient( to bottom right,rgb(255, 0, 0),rgb(138, 0, 0),rgb(255, 0, 0)" }}>
+                                <div className="d-flex justify-content-center align-items-center  text-white h-100" style={{ background: "linear-gradient( to bottom right,rgb(255, 251, 0),rgb(95, 97, 0),rgb(255, 251, 0)" }}>
                                     <FaHourglassHalf   style={{ fontSize: "50px" }} />
                                 </div>
                             </div>
