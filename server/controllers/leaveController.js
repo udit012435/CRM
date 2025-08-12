@@ -14,7 +14,7 @@ const addLeave = async(req, res) => {
         })
 
         await newLeave.save()
-        return res.status(200).json({success: true, me})
+        return res.status(200).json({success: true, newLeave})
  
     } catch(error){
         // console.log(error.message)
