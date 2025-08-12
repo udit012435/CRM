@@ -55,7 +55,7 @@ const LeaveList = () => {
           </div>
         )}
       </div>
-      <div className='container'>
+      <div className='container' id="leaveTable">
         <table className='w-100 '>
           <thead style={{background:"rgb(216, 216, 216)",border:"1px solid black"}}>
             <tr>

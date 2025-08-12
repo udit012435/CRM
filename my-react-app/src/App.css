@@ -68,6 +68,10 @@
    max-height: 60vh; /* Or any fixed height you want, e.g., 60vh */
   overflow-y: auto; 
 }
+#leaveTable{
+   max-height: 60vh; /* Or any fixed height you want, e.g., 60vh */
+  overflow-y: auto; 
+}
 
 .nav-link:hover {
   /* background: linear-gradient(to bottom, aqua, rgb(0, 160, 160), aqua); */
